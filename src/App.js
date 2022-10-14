@@ -9,12 +9,16 @@ import FunctionClick from "./components/FunctionClick";
 import ClassClick from "./components/ClassClick";
 import EventBind from "./components/EventBind";
 import UserGreeting from "./components/UserGreeting";
+import LifeCycleA from "./components/LifeCycleA";
+import FragmentDemo from "./components/FragmentDemo";
+import Table from "./components/Table";
+import ParentComp from "./components/ParentComp";
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <Message />
+        {/* <Message />
         <Greet name="Bruce" heroName="Batman">
           <p>This is Children props.</p>
         </Greet>
@@ -34,6 +38,14 @@ class App extends Component {
 
         <EventBind />
         <UserGreeting />
+
+        <LifeCycleA />
+
+        <FragmentDemo />
+
+        <Table /> */}
+
+        <ParentComp />
       </div>
     );
   }
