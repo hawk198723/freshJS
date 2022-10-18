@@ -12,7 +12,7 @@ class ParentComp extends Component {
   }
 
   componentDidMount() {
-    setInterval(() => this.setState({ name: "Jason!" }), 2000);
+    setInterval(() => this.setState({ name: "Jason!" }), 3000);
   }
   render() {
     const { name } = this.state;
