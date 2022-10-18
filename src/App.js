@@ -13,7 +13,13 @@ import LifeCycleA from "./components/LifeCycleA";
 import FragmentDemo from "./components/FragmentDemo";
 import Table from "./components/Table";
 import ParentComp from "./components/ParentComp";
-
+import ClassCounter from "./components/ReactHooks/useStateHook/ClassCounter";
+import HookCounter from "./components/ReactHooks/useStateHook/HookCounter";
+import { Routes, Route } from "react-router-dom";
+import { Home } from "./components/ReactRouter/Routes/Home";
+import { About } from "./components/ReactRouter/Routes/About";
+import { NavBar } from "./components/ReactRouter/Routes/NavBar";
+import HookCounterPreviousState from "./components/ReactHooks/useStateHook/HookCounterPreviousState";
 class App extends Component {
   render() {
     return (
@@ -43,10 +49,20 @@ class App extends Component {
 
         <FragmentDemo />
 
-        <Table /> */}
+        <Table />
 
-        <ParentComp />
+        <ParentComp /> */}
+        <ClassCounter />
+        <HookCounter />
+        <HookCounterPreviousState />
       </div>
+      // <>
+      //   <NavBar />
+      //   <Routes>
+      //     <Route path="/" element={<Home />} />
+      //     <Route path="/about" element={<About />} />
+      //   </Routes>
+      // </>
     );
   }
 }
