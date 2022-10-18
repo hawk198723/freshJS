@@ -20,6 +20,8 @@ import { Home } from "./components/ReactRouter/Routes/Home";
 import { About } from "./components/ReactRouter/Routes/About";
 import { NavBar } from "./components/ReactRouter/Routes/NavBar";
 import HookCounterPreviousState from "./components/ReactHooks/useStateHook/HookCounterPreviousState";
+import HookCounterWithObject from "./components/ReactHooks/useStateHook/HookCounterWithObject";
+import UseStateWithArray from "./components/ReactHooks/useStateHook/UseStateWithArray";
 class App extends Component {
   render() {
     return (
@@ -55,6 +57,9 @@ class App extends Component {
         <ClassCounter />
         <HookCounter />
         <HookCounterPreviousState />
+
+        <HookCounterWithObject />
+        <UseStateWithArray />
       </div>
       // <>
       //   <NavBar />
