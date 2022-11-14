@@ -24,6 +24,10 @@ import HookCounterWithObject from "./components/ReactHooks/useStateHook/HookCoun
 import UseStateWithArray from "./components/ReactHooks/useStateHook/UseStateWithArray";
 import ClassCounterOne from "./components/ReactHooks/useEffectHook/ClassCounterOne";
 import UseEffectCounter from "./components/ReactHooks/useEffectHook/UseEffectCounter";
+import HookMouse from "./components/ReactHooks/useEffectHook/HookMouse";
+import MouseContainer from "./components/ReactHooks/useEffectHook/MouseContainer";
+import IntervalUseEffectHookCounter from "./components/ReactHooks/useEffectHook/IntervalUseEffectHookCounter";
+import DataFetching from "./components/ReactHooks/useEffectHook/DataFetching";
 class App extends Component {
   render() {
     return (
@@ -56,7 +60,7 @@ class App extends Component {
         <Table />
 
         <ParentComp /> */}
-        <ClassCounter />
+        {/* <ClassCounter />
         <HookCounter />
         <HookCounterPreviousState />
 
@@ -64,7 +68,15 @@ class App extends Component {
         <UseStateWithArray />
 
         <ClassCounterOne />
-        <UseEffectCounter />
+        <UseEffectCounter /> */}
+
+        {/* <HookMouse /> */}
+
+        {/* <MouseContainer /> */}
+
+        <IntervalUseEffectHookCounter />
+
+        <DataFetching />
       </div>
       // <>
       //   <NavBar />
